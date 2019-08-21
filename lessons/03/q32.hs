@@ -1,1 +1,1 @@
-doubleDouble x = (\dubs -> dubs * 2) ( x * 2 )
+counter x = (\x -> x + 1) ( (\x -> x + 1) x )
