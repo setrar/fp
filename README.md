@@ -1,13 +1,17 @@
 # Functional Programming Studies 
 
-## Haskell
+## Install
+
+[install](Install.md)
+
+### Haskell
 
 |          Dir                     | Title                        | Date |  Language |
 |----------------------------------|------------------------------|------|-----------|
 | [lyah](lyah)                     | Learn Yourself a Haskell     | 2011 | <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>   |
 | [gpw-haskell](gpw-haskell)       | Get Programming With Haskell | 2018 |  <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>   |
 
-## Scala
+### Scala
 
 |          Dir                     | Title                        | Date |  Language |
 |----------------------------------|------------------------------|------|-----------|
