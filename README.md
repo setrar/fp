@@ -2,7 +2,7 @@
 
 |          Dir                     | Title                        | Date |  Language |
 |----------------------------------|------------------------------|------|-----------|
-| [lyah](lyah)                     | Learn Yourself a Haskell     | 2011 | ![image](images/602px-Haskell-Logo.svg.png)   |
+| [lyah](lyah)                     | Learn Yourself a Haskell     | 2011 | <img src="images/602px-Haskell-Logo.svg.png"><img>   |
 | [gpw-haskell](gpw-haskell)       | Get Programming With Haskell | 2018 | %         |
 | [fp-for-mortals](fp-for-mortals) | FP for Mortals (with scalaz) | 2019 | Scala     |
 
