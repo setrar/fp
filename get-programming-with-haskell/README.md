@@ -1,6 +1,4 @@
-# gpw-haskell
-Get Programming With Haskell
-
+# Get Programming With Haskell
 
 
 # Reference
