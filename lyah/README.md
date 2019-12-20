@@ -1,3 +1,3 @@
-# Learn You a Haskehll (for Great Good)
+# Learn You a Haskell (for Great Good)
 
 https://nostarch.com/lyah.htm
