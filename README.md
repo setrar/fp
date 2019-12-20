@@ -18,6 +18,15 @@
 | [fp-for-mortals](fp-for-mortals) | FP for Mortals (with scalaz) | 2019 | <img src="images/Scala_logo.png" width=72px height=50px><img>     |
 
 
+### Typescript
+
+|          Dir                     | Title                        | Date |  Language |
+|----------------------------------|------------------------------|------|-----------|
+|  | https://github.com/funfix/funfix) | 2019 |     |
+
+
+
+
 # References
 
 |          Website                        | Purpose                      |  Language |
