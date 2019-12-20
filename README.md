@@ -2,6 +2,7 @@
 
 |          Dir               | Title                        | Date |
 |----------------------------|------------------------------|------|
+| [lyah](lyah)               | Learn Yourself a Haskell     | 2011 |
 | [gpw-haskell](gpw-haskell) | Get Programming With Haskell | 2018 |
 
 
