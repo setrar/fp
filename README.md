@@ -13,4 +13,4 @@
 |-----------------------------------------|------------------------------|-----------|
 | http://tryhaskell.org/                  | Online REPL                  | Haskell   |      
 | http://book.realworldhaskell.org/read/  | Doc                          | %         |
-
+| https://scastie.scala-lang.org/         | Online REPL                  | Scala     |      
