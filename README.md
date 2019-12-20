@@ -8,7 +8,7 @@
 
 |          Dir                     | Title                        | Date |  Language |
 |----------------------------------|------------------------------|------|-----------|
-| [lyah](lyah)                     | Learn Yourself a Haskell     | 2011 | <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>   |
+| [lyah](lyah)                     | Learn You a Haskell          | 2011 | <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>   |
 | [gpw-haskell](gpw-haskell)       | Get Programming With Haskell | 2018 |  <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>   |
 
 ### Scala
