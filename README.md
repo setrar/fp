@@ -6,7 +6,7 @@
 | [gpw-haskell](gpw-haskell)       | Get Programming With Haskell | 2018 | %         |
 | [fp-for-mortals](fp-for-mortals) | FP for Mortals (with scalaz) | 2019 | ![](images/Scala_logo.png =72x50)     |
 
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=250)
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png){:height="50%" width="50%"}
 
 ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
