@@ -1,2 +1,5 @@
-# gpw-haskell
-Get Programming With Haskell
+# Haskell
+
+|          Dir               | Title                        | Date |
+|----------------------------|------------------------------|------|
+| [gpw-haskell](gpw-haskell) | Get Programming With Haskell | 2018 |
