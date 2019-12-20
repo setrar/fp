@@ -4,4 +4,4 @@
 |          Link                      | Title                        |
 |------------------------------------|------------------------------|
 | https://nostarch.com/lyah.htm      | Learn You a Haskell Book     |      
-| http://learnyouahaskell.com/errata |                              |
+| http://learnyouahaskell.com/errata | Errata Web Site              |
