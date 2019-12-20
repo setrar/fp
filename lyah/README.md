@@ -1,3 +1,7 @@
-# Learn You a Haskehll (for Great Good)
+# Learn You a Haskell (for Great Good)
 
-https://nostarch.com/lyah.htm
+
+|          Link                      | Title                        |
+|------------------------------------|------------------------------|
+| https://nostarch.com/lyah.htm      | Learn You a Haskell Book     |      
+| http://learnyouahaskell.com/errata | Errata Web Site              |
