@@ -22,6 +22,7 @@
 | Comparisons     |                                       |                                                       |
 |                 | [1,2,3] <= [1,2,3]                    |import Ordering.Implicits._; List(1,2,3) <= List(1,2,3)|
 | Operations      |                                       |                                                       |
-|                 | head [1,2,3]                          | List(1,2,3).head                                      |
+|                 | head [5,4,3,2,1]                      | List(5,4,3,2,1).head                                  |
+|                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1).tail                                  |
 
 
