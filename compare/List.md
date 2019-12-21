@@ -32,7 +32,7 @@
 |                 | maximum [1,9,2,3,4]                   | List(1,9,2,3,4) max                                   |
 |                 | sum [1,9,2,3,4]                       | List(1,9,2,3,4) sum                                   |
 |                 | product [1,9,2,3,4]                   | List(1,9,2,3,4) product                               |
-|                 | 5 \`elem\` [5,4,3,2,1]                | List(5,4,3,2,1).size >= 5                             |
+|                 | 5 \`elem\` [5,4,3,2,1] :bulb: [<sup>**Infix</sup>](#Infix) | List(5,4,3,2,1).size >= 5                             |
 
 
 #### :m: Haskell 
