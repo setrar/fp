@@ -19,11 +19,11 @@
 |                 | [[1,2],[3,4],[5,6]] !! 0              | List(List(1,2),List(3,4),List(5,6)) (0)               |
 |                 | let b = [[1,2,3,4],[5,3,3,3],[1,2,3]] | val b = List(List(1,2,3,4),List(5,3,3,3),List(1,2,3)) |
 |                 | b ++ [[1,1,1,1]]                      | b ++ List(List(1,1,1,1))                              | 
-| Comparisons     |                                       |                                                       |
-|                 | [1,2,3] <= [1,2,3]                    | List(1,2,3) <= List(1,2,3) [<sup>**Ordering</sup>](##Ordering) | 
+| Comparisons     |                                       | [<sup>**Ordering</sup>](##Ordering)                   |
+|                 | [1,2,3] <= [1,2,3]                    | List(1,2,3) <= List(1,2,3)                            | 
 | Operations      |                                       | [<sup>**postfixOps</sup>](##postfixOps)               |
-|                 | head [5,4,3,2,1]                      | List(5,4,3,2,1).head                                  |
-|                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1).tail                                  |
+|                 | head [5,4,3,2,1]                      | List(5,4,3,2,1) head                                  |
+|                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1) tail                                  |
 
 
 #### :m: Required Imports in Scala
