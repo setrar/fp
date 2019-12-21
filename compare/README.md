@@ -28,6 +28,7 @@
 |                 | last [5,4,3,2,1]                      | List(5,4,3,2,1) last                                  |
 |                 | null []                               | List() isEmpty `or` List() == Nil                     |
 |                 | length [5,4,3,2,1]                    | List(5,4,3,2,1) length                                |
+|                 | reverse [5,4,3,2,1]                   | List(5,4,3,2,1) reverse                               |
 
 
 #### :m: Required Imports in Scala
