@@ -1,3 +1,5 @@
+❓means `I don't know`
+
 # [List](https://en.wikipedia.org/wiki/List_(abstract_data_type))
 
 | Feature         | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup>                               | Scala <img src="../images/Scala_logo.png" width=72px height=50px><img>                                                 |
