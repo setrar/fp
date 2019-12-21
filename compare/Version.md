@@ -1,9 +1,13 @@
 # Version
 
+<img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img> 
+
 ```
 % ghci --version
 The Glorious Glasgow Haskell Compilation System, version 8.6.5
 ```
+
+<img src="images/Scala_logo.png" width=72px height=50px><img>
 
 ```
 % scala --version
