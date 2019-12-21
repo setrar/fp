@@ -20,13 +20,13 @@
 |                 | let b = [[1,2,3,4],[5,3,3,3],[1,2,3]] | val b = List(List(1,2,3,4),List(5,3,3,3),List(1,2,3)) |
 |                 | b ++ [[1,1,1,1]]                      | b ++ List(List(1,1,1,1))                              | 
 | Comparisons     |                                       |                                                       |
-|                 | [1,2,3] <= [1,2,3]                    |import Ordering.Implicits._; [^bignote] <sup>1</sup>List(1,2,3) <= List(1,2,3)| 
+|                 | [1,2,3] <= [1,2,3]                    |import Ordering.Implicits._; [^bignote] [<sup>1</sup>](##1)List(1,2,3) <= List(1,2,3)| 
 | Operations      |                                       |                                                       |
 |                 | head [5,4,3,2,1]                      | List(5,4,3,2,1).head                                  |
 |                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1).tail                                  |
 
 
-[^bignote]: Here's one with multiple paragraphs and code.
+## [^1]: Here's one with multiple paragraphs and code.
 
     Indent paragraphs to include them in the footnote.
 
