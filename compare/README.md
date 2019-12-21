@@ -26,7 +26,7 @@
 |                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1).tail                                  |
 
 
-#### 1: 
+## 1: 
     Here's one with multiple paragraphs and code.
     
     `{import Ordering.Implicits._}`
