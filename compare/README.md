@@ -31,6 +31,7 @@
 |                 | reverse [5,4,3,2,1]                   | List(5,4,3,2,1) reverse                               |
 |                 | take 3 [5,4,3,2,1]                    | List(5,4,3,2,1) take 3                                |
 |                 | drop 3 [8,4,2,1,5,6]                  | List(8,4,2,1,5,6) drop 3                              |
+|                 | maximum [1,9,2,3,4]                   | List(1,9,2,3,4) max                                   |
 
 
 #### :m: Required Imports in Scala
