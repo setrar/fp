@@ -8,7 +8,7 @@
 |                 | [ ]          | List() or Nil |
 |                 | [1,2]        | List(1,2)     |
 |                 | 1 : 2 : [ ]  | 1 :: 2 :: Nil |
-|                 | 'A' : "SMALL CAT" |  `???`               |
+|                 | 'A' : "SMALL CAT" |  :bangbang:               |
 |                 | 5 : [1,2,3,4,5]   | 5 :: List(1,2,3,4,5) | 
 | Concatenation   |  ++          |  ++           |
 
