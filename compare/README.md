@@ -1,4 +1,6 @@
-# Compare Haskell vs Scala REPL `based on [LYAH book](http://learnyouahaskell.com/)`
+# Comparison
+
+#### :m: Compare Haskell vs Scala REPL `based on [LYAH book](http://learnyouahaskell.com/)`
 
 | Feature         | Haskell      | Scala         |
 |-----------------|--------------|---------------|
