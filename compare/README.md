@@ -26,11 +26,13 @@
 |                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1).tail                                  |
 
 
-## **Ordering: 
+### :m: Required Imports in Scala
+
+#### **Ordering: 
     Add the following Implicit Import.
     import Ordering.Implicits._
     
-## **postfixOps
+#### **postfixOps
     Add the following Implicit Import.
     import scala.language.postfixOps
 
