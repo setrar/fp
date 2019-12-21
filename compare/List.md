@@ -20,17 +20,16 @@
 | Comparisons     |                                       | :bulb: [<sup>**Ordering</sup>](#Ordering)             |
 |                 | [3,2,1] > [2,1,0]                     | List(3,2,1) > List(2,1,0)                             | 
 | Operations      |                                       | :bulb: [<sup>**postfixOps</sup>](#postfixOps)         |
-| `{head,tail}`   | head [5,4,3,2,1]                      | List(5,4,3,2,1) head                                  |
-| `{init,last}`   | init [5,4,3,2,1]                      | List(5,4,3,2,1) init                                  |
 |                 | null []                               | List() isEmpty `or` List() == Nil                     |
+|                 | 5 \`elem\` [5,4,3,2,1] :bulb: [<sup>**Infix</sup>](#Infix) | List(5,4,3,2,1).size >= 5                     | `{head,tail}`   | head [5,4,3,2,1]                      | List(5,4,3,2,1) head                                  |
+| `{init,last}`   | init [5,4,3,2,1]                      | List(5,4,3,2,1) init                                  |
+| `{take,drop}`   | take 3 [5,4,3,2,1]                    | List(5,4,3,2,1) take 3                                |
 |                 | length [5,4,3,2,1]                    | List(5,4,3,2,1) length                                |
 |                 | reverse [5,4,3,2,1]                   | List(5,4,3,2,1) reverse                               |
-|                 | take 3 [5,4,3,2,1]                    | List(5,4,3,2,1) take 3                                |
-|                 | drop 3 [8,4,2,1,5,6]                  | List(8,4,2,1,5,6) drop 3                              |
 |                 | maximum [1,9,2,3,4]                   | List(1,9,2,3,4) max                                   |
 |                 | sum [1,9,2,3,4]                       | List(1,9,2,3,4) sum                                   |
 |                 | product [1,9,2,3,4]                   | List(1,9,2,3,4) product                               |
-|                 | 5 \`elem\` [5,4,3,2,1] :bulb: [<sup>**Infix</sup>](#Infix) | List(5,4,3,2,1).size >= 5                             |
+        |
 
 
 #### :m: Haskell 
