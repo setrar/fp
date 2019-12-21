@@ -20,13 +20,14 @@
 |                 | let b = [[1,2,3,4],[5,3,3,3],[1,2,3]] | val b = List(List(1,2,3,4),List(5,3,3,3),List(1,2,3)) |
 |                 | b ++ [[1,1,1,1]]                      | b ++ List(List(1,1,1,1))                              | 
 | Comparisons     |                                       | :bulb: [<sup>**Ordering</sup>](#Ordering)             |
-|                 | [3,2,1] > [2,1,0]                    | List(3,2,1) > List(2,1,0)                              | 
+|                 | [3,2,1] > [2,1,0]                     | List(3,2,1) > List(2,1,0)                             | 
 | Operations      |                                       | :bulb: [<sup>**postfixOps</sup>](#postfixOps)         |
 |                 | head [5,4,3,2,1]                      | List(5,4,3,2,1) head                                  |
 |                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1) tail                                  |
 |                 | init [5,4,3,2,1]                      | List(5,4,3,2,1) init                                  |
 |                 | last [5,4,3,2,1]                      | List(5,4,3,2,1) last                                  |
-|                 | null []                               | List() isEmpty                                        |
+|                 | null []                               | Nil == List() `or` List() isEmpty                     |
+|                 | length [5,4,3,2,1]                    | List(5,4,3,2,1) length                                |
 
 
 #### :m: Required Imports in Scala
