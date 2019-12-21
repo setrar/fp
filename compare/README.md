@@ -20,5 +20,6 @@
 |                 | let b = [[1,2,3,4],[5,3,3,3],[1,2,3]] | val b = List(List(1,2,3,4),List(5,3,3,3),List(1,2,3)) |
 |                 | b ++ [[1,1,1,1]]                      | b ++ List(List(1,1,1,1))                              | 
 | Operations      |                                       |                                                       |
+|                 |                                       |import Ordering.Implicits._; List(1,2,3) <= List(1,2,3)|
 
 
