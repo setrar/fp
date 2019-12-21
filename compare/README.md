@@ -21,15 +21,18 @@
 |                 | b ++ [[1,1,1,1]]                      | b ++ List(List(1,1,1,1))                              | 
 | Comparisons     |                                       |                                                       |
 |                 | [1,2,3] <= [1,2,3]                    | List(1,2,3) <= List(1,2,3) [<sup>**Ordering</sup>](##Ordering) | 
-| Operations      |                                       |                                                       |
+| Operations      |                                       | [<sup>**postfixOps</sup>](##postfixOps)               |
 |                 | head [5,4,3,2,1]                      | List(5,4,3,2,1).head                                  |
 |                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1).tail                                  |
 
 
 ## **Ordering: 
-    Add the following Implicit Ordering Import.
-    
+    Add the following Implicit Import.
     import Ordering.Implicits._
+    
+## **postfixOps
+    Add the following Implicit Import.
+    import scala.language.postfixOps
 
 
 
