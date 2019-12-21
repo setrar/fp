@@ -7,7 +7,7 @@
 
 #### API
 
-| Data Structure  | Description                                                                    |
-|-----------------|--------------------------------------------------------------------------------|
-| [List](List.md) | [List_(abstract_data_type)](https://en.wikipedia.org/wiki/List_(abstract_data_type)) |
+| Data Structure  | Description                                                                          |
+|-----------------|--------------------------------------------------------------------------------------|
+| [List](List.md) | [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type)) |
 
