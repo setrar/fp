@@ -26,7 +26,7 @@
 |                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1) tail                                  |
 |                 | init [5,4,3,2,1]                      | List(5,4,3,2,1) init                                  |
 |                 | last [5,4,3,2,1]                      | List(5,4,3,2,1) last                                  |
-|                 | null []                               | List() == Nil `or` List() isEmpty                     |
+|                 | null []                               | List() isEmpty `or` List() == Nil                     |
 |                 | length [5,4,3,2,1]                    | List(5,4,3,2,1) length                                |
 
 
