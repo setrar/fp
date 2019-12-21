@@ -6,7 +6,7 @@
 |                 | [ ]                                   | List() `or` Nil                                       |
 |                 | [1,2]                                 | List(1,2)                                             |
 |                 | 1 : 2 : [ ]                           | 1 :: 2 :: Nil                                         |
-| Concatenation   |                                       |                                                       |
+| Concatenation   |  `++`                                 | `++`                                                  |
 |                 | 'A' : "SMALL CAT"                     | ❓                                                    |
 |                 | 5 : [1,2,3,4,5]                       | 5 :: List(1,2,3,4,5)                                  | 
 |                 | [1,2,3,4] ++ [5]                      | List(1,2,3,4) ++ List(5)                              | 
