@@ -35,7 +35,14 @@
 |                 | 5 \`elem\` [5,4,3,2,1]                | List(5,4,3,2,1).size >= 5                             |
 
 
-#### :m: Required Imports in Scala
+#### :m: Haskell 
+
+##### **Infix: 
+    By default all functions are prefixing the instruction
+    Adding \` (backticks) between functions allows infixing
+    \`div\`
+
+#### :m: Scala - Required Imports
 
 ##### **Ordering: 
     Add the following Implicit Import.
