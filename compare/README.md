@@ -5,7 +5,7 @@
 | Feature         | Haskell                               | Scala                                                 |
 |-----------------|---------------------------------------|-------------------------------------------------------|
 | [List](https://en.wikipedia.org/wiki/List_(abstract_data_type)) Construct  |              |                     |
-|                 | [ ]                                   | List() or Nil                                         |
+|                 | [ ]                                   | List() `or` Nil                                         |
 |                 | [1,2]                                 | List(1,2)                                             |
 |                 | 1 : 2 : [ ]                           | 1 :: 2 :: Nil                                         |
 | Concatenation   |                                       |                                                       |
@@ -26,7 +26,7 @@
 |                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1) tail                                  |
 |                 | init [5,4,3,2,1]                      | List(5,4,3,2,1) init                                  |
 |                 | last [5,4,3,2,1]                      | List(5,4,3,2,1) last                                  |
-|                 | null []                               | Nil == List() `or` List() isEmpty                     |
+|                 | null []                               | List() == Nil `or` List() isEmpty                     |
 |                 | length [5,4,3,2,1]                    | List(5,4,3,2,1) length                                |
 
 
