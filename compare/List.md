@@ -39,8 +39,8 @@
 
 ##### **Infix: 
     By default all functions are prefixing the instruction
-    Adding \` (backticks) between functions allows infixing
-    \`div\`
+    Adding ` (backticks) between functions allows infixing
+    4 `div` 2
 
 #### :m: Scala - Required Imports
 
