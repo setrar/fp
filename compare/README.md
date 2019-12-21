@@ -27,9 +27,9 @@
 
 
 ## **Ordering: 
-    Here's one with multiple paragraphs and code.
+    Add the following Implicit Ordering Import.
     
-    `{import Ordering.Implicits._}`
+    import Ordering.Implicits._
 
 
 
