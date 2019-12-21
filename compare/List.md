@@ -20,10 +20,8 @@
 | Comparisons     |                                       | :bulb: [<sup>**Ordering</sup>](#Ordering)             |
 |                 | [3,2,1] > [2,1,0]                     | List(3,2,1) > List(2,1,0)                             | 
 | Operations      |                                       | :bulb: [<sup>**postfixOps</sup>](#postfixOps)         |
-|                 | head [5,4,3,2,1]                      | List(5,4,3,2,1) head                                  |
-|                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1) tail                                  |
-|                 | init [5,4,3,2,1]                      | List(5,4,3,2,1) init                                  |
-|                 | last [5,4,3,2,1]                      | List(5,4,3,2,1) last                                  |
+| {head/tail}     | head [5,4,3,2,1]                      | List(5,4,3,2,1) head                                  |
+| {init/last}     | init [5,4,3,2,1]                      | List(5,4,3,2,1) init                                  |
 |                 | null []                               | List() isEmpty `or` List() == Nil                     |
 |                 | length [5,4,3,2,1]                    | List(5,4,3,2,1) length                                |
 |                 | reverse [5,4,3,2,1]                   | List(5,4,3,2,1) reverse                               |
