@@ -26,7 +26,8 @@
 |                 | tail [5,4,3,2,1]                      | List(5,4,3,2,1).tail                                  |
 
 
-## [^1]: Here's one with multiple paragraphs and code.
+## 1: 
+    Here's one with multiple paragraphs and code.
 
     Indent paragraphs to include them in the footnote.
 
