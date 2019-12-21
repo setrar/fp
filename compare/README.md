@@ -29,6 +29,8 @@
 |                 | null []                               | List() isEmpty `or` List() == Nil                     |
 |                 | length [5,4,3,2,1]                    | List(5,4,3,2,1) length                                |
 |                 | reverse [5,4,3,2,1]                   | List(5,4,3,2,1) reverse                               |
+|                 | take 3 [5,4,3,2,1]                    | List(5,4,3,2,1) take 3                                |
+|                 | drop 3 [8,4,2,1,5,6]                  | List(8,4,2,1,5,6) drop 3                              |
 
 
 #### :m: Required Imports in Scala
