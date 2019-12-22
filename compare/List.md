@@ -36,8 +36,8 @@
 |                 | [1..20]                                 | 1 to 20 to(LazyList)                                        |
 |                 | ['a'..'z']                              | 'a' to 'z' mkString                                   |
 |                 | ['K'..'Z']                              | 'K' to 'Z' mkString                                   |
-|                 | [2,4..20]  :warning: `first is included`| 2 to 20 by 2 to(LazyList)                                   |
-|                 | [3,6..20]  :warning: `first is included`| 3 to 20 by 3 to(LazyList)                                   |
+|                 | [2,4..20]  :warning: `first included`   | 2 to 20 by 2 to(LazyList)                                   |
+|                 | [3,6..20]  :warning: `first included`   | 3 to 20 by 3 to(LazyList)                                   |
 
 
 #### :m: Haskell 
