@@ -44,6 +44,8 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
 |                 | ['K'..'Z']                              | 'K' to 'Z' mkString                                   |
 |                 | [2,4..20]  :warning: `first included`   | 2 to 20 by 2 to(LazyList)                                   |
 |                 | [3,6..20]  :warning: `first included`   | 3 to 20 by 3 to(LazyList)                                   |
+| Cycle           |                                         |                                                       |
+|                 | take 10 (cycle [1,2,3])                 | cycle(1 #:: 2 #:: 3 #:: LazyList.empty) take 10 [<sup>**cycle</sup>](#cycle) |
 
 
 #### :m: Haskell 
@@ -65,3 +67,6 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
 
 ##### **strict: 
     Strick evaluation (i.e. non lazy), Scala uses the non-strict construct like `List` by default
+    
+##### **cycle: 
+    def cycle[T](seq: Seq[T]) = LazyList.from(0).flatten(_ => seq)
