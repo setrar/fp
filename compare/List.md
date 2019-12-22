@@ -32,6 +32,8 @@
 |                 | maximum [1,9,2,3,4]                     | List(1,9,2,3,4) max                                   |
 |                 | sum [1,9,2,3,4]                         | List(1,9,2,3,4) sum                                   |
 |                 | product [1,9,2,3,4]                     | List(1,9,2,3,4) product                               |
+| Ranges          |                                         |                                                       |
+|                 | [1..20]                                 | (1 to 20) toList                                      |
 
 
 #### :m: Haskell 
