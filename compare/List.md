@@ -56,7 +56,7 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
     Adding ` (backticks) between functions allows infixing
     4 `div` 2
 
-#### :m: Scala - Required Imports
+#### :m: Scala - Required Imports and missing code
 
 ##### **Ordering: 
     Add the following Implicit Import.
