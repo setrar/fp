@@ -23,7 +23,7 @@
 |                 | [3,2,1] > [2,1,0]                       | List(3,2,1) > List(2,1,0)                             | 
 | Operations      |                                         | :bulb: [<sup>**postfixOps</sup>](#postfixOps)         |
 |                 | null []                                 | List() isEmpty `or` List() == Nil                     |
-|                 | 5 \`elem\` [5,4,3,2,1] :bulb: [<sup>**Infix</sup>](#Infix) | List(5,4,3,2,1).size >= 5  ❓        |
+|                 | 5 \`elem\` [5,4,3,2,1] :bulb: [<sup>**Infix</sup>](#Infix) | List(5,4,3,2,1) contains 5         |
 | `{head,tail}`   | head [5,4,3,2,1]                        | List(5,4,3,2,1) head                                  |
 | `{init,last}`   | init [5,4,3,2,1]                        | List(5,4,3,2,1) init                                  |
 | `{take,drop}`   | take 3 [5,4,3,2,1]                      | List(5,4,3,2,1) take 3                                |
