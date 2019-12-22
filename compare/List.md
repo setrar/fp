@@ -64,4 +64,4 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
     import scala.language.postfixOps
 
 ##### **strict: 
-    Strick evaluation (i.e. non lazy)
+    Strick evaluation (i.e. non lazy), Scala uses the non-strict construct like `List` by default
