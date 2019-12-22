@@ -49,7 +49,7 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
 |                 | take 10 (cycle [1,2,3])                 | cycle(1 #:: 2 #:: 3 #:: LazyList.empty) take 10 [<sup>**cycle</sup>](#cycle) |
 |                 | take 10 (repeat 5)                      | LazyList.fill(10)(5) :warning: not ideal              |
 | Comprehension   |                                         |                                                       |
-|                 | [x * 2 | x <- [1..10]]                  | 1 to 10 to(LazyList) map (_ * 2)                      |
+|                 | [x * 2 \| x <- [1..10]]                  | 1 to 10 to(LazyList) map (_ * 2)                      |
 
 
 #### :m: Haskell 
