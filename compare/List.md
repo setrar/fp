@@ -37,6 +37,7 @@
 |                 | ['a'..'z']                              | 'a' to 'z' mkString                                   |
 |                 | ['K'..'Z']                              | 'K' to 'Z' mkString                                   |
 |                 | [2,4..20]  :warning: `first is included`| 2 to 20 by 2 toList                                   |
+|                 | [3,6..20]  :warning: `first is included`| 3 to 20 by 3 toList                                   |
 
 
 #### :m: Haskell 
