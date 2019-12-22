@@ -3,20 +3,20 @@
 # [List](https://en.wikipedia.org/wiki/List_(abstract_data_type))
 
 | Feature         | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Scala <img src="../images/Scala_logo.png" width=72px height=50px><img> |
-|-----------------|-----------------------------------------|-------------------------------------------------------|
-|  [Cons]()truct  | `:`                                     | `::`                                                  |
-|                 | [ ]                                     | LazyList() `or` Nil                                       |
-|                 | [1,2]                                   | LazyList(1,2)                                             |
-|                 | 1 : 2 : [ ]                             | 1 :: 2 :: Nil                                         |
-| Concatenation   |  `++`                                   | `++`                                                  |
-|                 | 'A' : " SMALL CAT"                      | 'A' :: " SMALL CAT" :: Nil  mkString                  |
-|                 | 5 : [1,2,3,4,5]                         | 5 :: LazyList(1,2,3,4,5)                                  |
-|                 | [1,2,3,4] ++ [5]                        | LazyList(1,2,3,4) ++ LazyList(5)                              |
-|                 | [[1,2],[3,4],[5,6]]                     | LazyList(LazyList(1,2),LazyList(3,4),LazyList(5,6))                   |
-| Access          |                                         |                                                       |
-|                 | "Steve Buscemi" !! 6                    | "Steve Buscemi" (6)                                   |
-|                 | [1,2,3,4] !! 0                          | LazyList(1,2,3,4) (0)                                     |
-|                 | [[1,2],[3,4],[5,6]] !! 0                | LazyList(LazyList(1,2),LazyList(3,4),LazyList(5,6)) (0)               |
+|-----------------|-----------------------------------------|--------------------------------------------------------|
+|  [Cons]()truct  | `:`                                     | `::`                                                   |
+|                 | [ ]                                     | LazyList() `or` Nil                                    |
+|                 | [1,2]                                   | LazyList(1,2)                                          |
+|                 | 1 : 2 : [ ]                             | 1 :: 2 :: LazyList.empty                               |
+| Concatenation   |  `++`                                   | `++`                                                   |
+|                 | 'A' : " SMALL CAT"                      | 'A' :: " SMALL CAT" :: Nil  mkString                   |
+|                 | 5 : [1,2,3,4,5]                         | 5 :: LazyList(1,2,3,4,5)                               |
+|                 | [1,2,3,4] ++ [5]                        | LazyList(1,2,3,4) ++ LazyList(5)                       |
+|                 | [[1,2],[3,4],[5,6]]                     | LazyList(LazyList(1,2),LazyList(3,4),LazyList(5,6))    |
+| Access          |                                         |                                                        |
+|                 | "Steve Buscemi" !! 6                    | "Steve Buscemi" (6)                                    |
+|                 | [1,2,3,4] !! 0                          | LazyList(1,2,3,4) (0)                                  |
+|                 | [[1,2],[3,4],[5,6]] !! 0                | LazyList(LazyList(1,2),LazyList(3,4),LazyList(5,6))(0) |
 |                 | `let` b = [[1,2,3,4],[5,3,3,3],[1,2,3]] | `val` b = LazyList(LazyList(1,2,3,4),LazyList(5,3,3,3),LazyList(1,2,3)) |
 |                 | b ++ [[1,1,1,1]]                        | b ++ LazyList(LazyList(1,1,1,1))                              |
 | Comparisons     |                                         | :bulb: [<sup>**Ordering</sup>](#Ordering)             | 
