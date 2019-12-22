@@ -67,7 +67,7 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
     import scala.language.postfixOps
 
 ##### **strict: 
-    Strick evaluation (i.e. non lazy), Scala uses the non-strict construct like `List` by default
+    Strict evaluation (i.e. non lazy), Scala uses the non-strict construct like `List` by default
     
 ##### **cycle: 
     def cycle[T](seq: Seq[T]) = LazyList.from(0).flatten(_ => seq)
