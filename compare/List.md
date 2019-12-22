@@ -33,7 +33,9 @@
 |                 | sum [1,9,2,3,4]                         | List(1,9,2,3,4) sum                                   |
 |                 | product [1,9,2,3,4]                     | List(1,9,2,3,4) product                               |
 | Ranges          |                                         |                                                       |
-|                 | [1..20]                                 | (1 to 20) toList                                      |
+|                 | [1..20]                                 | 1 to 20 toList                                        |
+|                 | ['a'..'z']                              | 'a' to 'z' mkString                                   |
+|                 | ['K'..'Z']                              | 'K' to 'Z' mkString                                   |
 
 
 #### :m: Haskell 
