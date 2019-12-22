@@ -46,6 +46,7 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
 |                 | [3,6..20]  :warning: `first included`   | 3 to 20 by 3 to(LazyList)                                   |
 | Cycle           |                                         |                                                       |
 |                 | take 10 (cycle [1,2,3])                 | cycle(1 #:: 2 #:: 3 #:: LazyList.empty) take 10 [<sup>**cycle</sup>](#cycle) |
+|                 | take 10 (repeat 5)                      | LazyList.fill(10)(5) :warning: not ideal |
 
 
 #### :m: Haskell 
