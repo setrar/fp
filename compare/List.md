@@ -9,7 +9,7 @@
 |                 | [1,2]                                   | List(1,2)                                             |
 |                 | 1 : 2 : [ ]                             | 1 :: 2 :: Nil                                         |
 | Concatenation   |  `++`                                   | `++`                                                  |
-|                 | 'A' : "SMALL CAT"                       | ❓                                                    |
+|                 | 'A' : "SMALL CAT"                       | 'A' :: "SMALL CAT" :: Nil  mkString                   |
 |                 | 5 : [1,2,3,4,5]                         | 5 :: List(1,2,3,4,5)                                  | 
 |                 | [1,2,3,4] ++ [5]                        | List(1,2,3,4) ++ List(5)                              | 
 |                 | [[1,2],[3,4],[5,6]]                     | List(List(1,2),List(3,4),List(5,6))                   |
