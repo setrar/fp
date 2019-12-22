@@ -58,7 +58,7 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
 ![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
 
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20S%20%3D%5Cbegin%7Bcases%7D%202%20.%20x%20%7C%20x%20%20%5Cin%20%20%5Caleph%20%2C%20x%20%3C%3D%2010%20%3F%20%5Cend%7Bcases%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit)
+<img src="http://www.sciweavers.org/tex2img.php?eq=%20S%20%3D%5Cbig%5C%7B%202%20.%20x%20%7C%20x%20%20%5Cin%20%20%5Caleph%20%2C%20x%20%3C%3D%2010%5Cbig%5C%7D%20%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" S =\big\{ 2 . x | x  \in  \aleph , x <= 10\big\} " width="204" height="21" />
 
 #### :m: Haskell 
 
