@@ -7,6 +7,8 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
 
 :bulb: To force the evaluation, i.e. to see the results, use `force`: i.e. `LazyList(1,2) force` [<sup>**postfixOps</sup>](#postfixOps) 
 
+:bookmark: Haskell notation seems inverted compare to Scala's 
+
 
 | Feature         | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Scala <img src="../images/Scala_logo.png" width=72px height=50px><img> |
 |-----------------|-----------------------------------------|--------------------------------------------------------|
