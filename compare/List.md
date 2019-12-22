@@ -10,8 +10,8 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
 
 | Feature         | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Scala <img src="../images/Scala_logo.png" width=72px height=50px><img> |
 |-----------------|-----------------------------------------|--------------------------------------------------------|
-|  [Cons]()truct  | `:`                                     | `#::` `=>` `::` [<sup>**strict</sup>](#strict)           |
-|                 | [ ]                                     | LazyList() `or` Nil  `=>` `List()` [<sup>**strict</sup>](#strict)|
+|  [Cons]()truct  | `:`                                     | `#::` `and` `::` [<sup>**strict</sup>](#strict)           |
+|                 | [ ]                                     | LazyList() `or` Nil  `and` `List()` [<sup>**strict</sup>](#strict)|
 |                 | [1,2]                                   | LazyList(1,2)                                          |
 |                 | 1 : 2 : [ ]                             | 1 #:: 2 #:: LazyList.empty                             |
 | Concatenation   |  `++`                                   | `++`                                                   |
