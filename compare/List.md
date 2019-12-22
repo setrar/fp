@@ -4,10 +4,10 @@
 
 | Feature         | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Scala <img src="../images/Scala_logo.png" width=72px height=50px><img> |
 |-----------------|-----------------------------------------|--------------------------------------------------------|
-|  [Cons]()truct  | `:`                                     | `::`                                                   |
+|  [Cons]()truct  | `:`                                     | `#::`                                                  |
 |                 | [ ]                                     | LazyList() `or` Nil                                    |
 |                 | [1,2]                                   | LazyList(1,2)                                          |
-|                 | 1 : 2 : [ ]                             | 1 :: 2 :: LazyList.empty                               |
+|                 | 1 : 2 : [ ]                             | 1 #:: 2 #:: LazyList.empty                             |
 | Concatenation   |  `++`                                   | `++`                                                   |
 |                 | 'A' : " SMALL CAT"                      | 'A' :: " SMALL CAT" :: Nil  mkString                   |
 |                 | 5 : [1,2,3,4,5]                         | 5 :: LazyList(1,2,3,4,5)                               |
