@@ -55,6 +55,8 @@ By definition, Haskell is a lazy language. To mimic the same feature, I will be 
 |                 | [x * 2 \| x <- [1..10]]                  | 1 to 10 to(LazyList) map ( x => x * 2)               |
 
 
+![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+
 #### :m: Haskell 
 
 ##### **Infix: 
