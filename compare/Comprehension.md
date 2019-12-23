@@ -20,6 +20,13 @@
 
 
 
+#### :m: Scala 
+    
+##### **cycle: 
+    def cycle[T](seq: Seq[T]) = LazyList.from(0).flatten(_ => seq)
+
+
+
 
 References: 
 
