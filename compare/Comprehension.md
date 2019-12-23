@@ -12,11 +12,11 @@
 |                 | [0.1, 0.3 .. 1]        | BigDecimal("0.1") to BigDecimal("0.3") by BigDecimal("1") to(LazyList) :bangbang:|
 | Cycle           |                                         |                                                       |
 |                 | take 10 (cycle [1,2,3])                 | cycle(1 #:: 2 #:: 3 #:: LazyList.empty) take 10 [<sup>**cycle</sup>](#cycle) |
-|                 | take 10 (repeat 5)                      | LazyList.fill(10)(5) :warning: not ideal                       |
-| Comprehension   |                                         |                                                                |
-|                 | [x * 2 \| x <- [1..10]]                 | 1 to 10 to(LazyList) collect ( x => x * 2)                     |
-|                 | [x * 2 \| x <- [1..10], x * 2 >= 12]    | 1 to 10 to(LazyList) collect { case x if x * 2 >= 12 => x * 2 }|
-|                 | [x\|x<-[50..100],x\`mod\`7==3]     | 50 to 100 to(LazyList) collect {case x if x % 7 == 3 => x}     |
+|                 | take 10 (repeat 5)                      | LazyList.fill(10)(5) :warning: not ideal                   |
+| Comprehension   |                                         |                                                            |
+|                 | [x * 2 \| x <- [1..10]]                 | for (x <- 1 to 10 to(LazyList)) yield x * 2                |
+|                 | [x * 2 \| x <- [1..10], x * 2 >= 12]    | for (x <- 1 to 10 to(LazyList) if x * 2 >= 12) yield x * 2 |
+|                 | [x\|x<-[50..100],x\`mod\`7==3]          | for (x <- 1 to 10 to(LazyList) if x % 7 == 3) yield x      |
 
 
 
