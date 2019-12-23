@@ -7,7 +7,8 @@
 
 #### :m: API
 
-| Data Structure  | Description                                                                          |
-|-----------------|--------------------------------------------------------------------------------------|
-| [List](List.md) | [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type)) |
+| Data Structure  | Description                                                                          | Comments |
+|-----------------|--------------------------------------------------------------------------------------|----------|
+| [List](List.md) | [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type)) |          |
+| [Set](Comprehension.md) | [List (abstract data type)](https://en.wikipedia.org/wiki/Set-builder_notation) |          |
 
