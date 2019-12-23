@@ -15,8 +15,8 @@
 |                 | take 10 (repeat 5)                      | LazyList.fill(10)(5) :warning: not ideal                   |
 | Comprehension   |                                         |                                                            |
 |                 | [x * 2 \| x <- [1..10]]                 | for (x <- 1 to 10 to(LazyList)) yield x * 2                |
-|                 | [x * 2 \| x <- [1..10], x * 2 >= 12]    | for (x <- 1 to 10 if x * 2 >= 12) yield x * 2 |
-|                 | [x\|x<-[50..100],x\`mod\`7==3]          | for (x <- 1 to 10 if x % 7 == 3) yield x      |
+|                 | [x * 2 \| x <- [1..10], x * 2 >= 12]    | for (x <- 1 to 10 to(LazyList) if x * 2 >= 12) yield x * 2 |
+|                 | [x\|x<-[50..100],x\`mod\`7==3]          | for (x <- 1 to 10 to(LazyList) if x % 7 == 3) yield x      |
 
 
 
