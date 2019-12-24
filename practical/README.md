@@ -35,13 +35,22 @@ dependencies:
 stack build --exec bitcoin --file-watch --fast
 ```
 
-* Add an Haskell Language Extension `OverloadedStrings` in `Main.hs` source code
+* Add an Haskell Language Extension `OverloadedStrings` at the top of `Main.hs` source code 
 
 ```Haskell
 {-# LANGUAGE OverloadedStrings #-}
 ```
 
-* Add the fetchJSON function to the `Main.hs` source code
+:pushpin: After the `module Main where` declaration
+
+* Import some packages:
+
+```
+import           Network.HTTP.Simple            ( httpBS, getResponseBody )               
+import qualified Data.ByteString.Char8         as BS
+```
+
+* Add the fetchJSON function declaration to the `Main.hs` source code 
 
 ```Haskell
 fetchJSON :: IO BS.ByteString
