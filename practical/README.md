@@ -28,3 +28,9 @@ dependencies:
   - text
   - http-conduit
 ```
+
+* Build 
+
+```
+stack build --exec bitcoin --file-watch --fast
+```
