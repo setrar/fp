@@ -59,3 +59,9 @@ fetchJSON = do
   return (getResponseBody res)
 ```
 
+* Replace the `putStrLn "hello world"` with the below code
+
+```
+  json <- fetchJSON
+  BS.putStrLn json
+```
