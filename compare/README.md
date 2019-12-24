@@ -10,5 +10,5 @@
 | Data Structure  | Description                                                                          | Comments |
 |-----------------|--------------------------------------------------------------------------------------|----------|
 | [List](List.md) | [List (abstract data type)](https://en.wikipedia.org/wiki/List_(abstract_data_type)) |          |
-| [Comprehension](Comprehension.md) | [Set Builder Notation](https://en.wikipedia.org/wiki/Set-builder_notation) |  Set, For         |
+| [Range](Range.md) | [Set Builder Notation](https://en.wikipedia.org/wiki/Set-builder_notation) |  Set, For   | [Comprehension](Comprehension.md) | [Set Builder Notation](https://en.wikipedia.org/wiki/Set-builder_notation) |  Set, For         |
 
