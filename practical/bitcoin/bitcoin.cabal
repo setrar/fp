@@ -1,0 +1,30 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 15c0e7a20d745ed4d14d515452130cea97d74bc88f6e1a25f6007184e18571e9
+
+name:           bitcoin
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/setrar/bitcoin#readme
+author:         Setra R
+maintainer:     setrar@valiha.com
+copyright:      setrar
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable bitcoin
+  main-is: Main.hs
+  other-modules:
+      Paths_bitcoin
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
