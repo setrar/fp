@@ -14,3 +14,17 @@ $ stack build
 ```
 $ stack exec bitcoin
 ``` 
+
+:pushpin: Add packages to `package.yaml` dependencies
+
+ * add lens - lens-aeson - bytestring - text - http-conduit
+
+```
+dependencies:
+  - base >= 4.7 && < 5
+  - lens
+  - lens-aeson
+  - bytestring
+  - text
+  - http-conduit
+```
