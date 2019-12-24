@@ -14,3 +14,5 @@ References:
 https://medium.com/@joshuapaulrobin/set-comprehension-in-python3-for-beginners-80561a9b4007
 
 https://brilliant.org/wiki/list-comprehension/#set-builders
+
+https://en.wikipedia.org/wiki/Comparison_of_programming_languages_(list_comprehension)
