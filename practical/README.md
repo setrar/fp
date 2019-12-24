@@ -45,7 +45,7 @@ stack build --exec bitcoin --file-watch --fast
 
 * Import some packages:
 
-```
+```Haskell
 import           Network.HTTP.Simple            ( httpBS, getResponseBody )               
 import qualified Data.ByteString.Char8         as BS
 ```
@@ -61,14 +61,14 @@ fetchJSON = do
 
 * Replace the `putStrLn "hello world"` with the below code
 
-```
+```Haskell
   json <- fetchJSON
   BS.putStrLn json
 ```
 
 :bookmark: Final Result
 
-```
+```Haskell
 {-# LANGUAGE OverloadedStrings #-}
 
 module Main where
