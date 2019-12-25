@@ -212,7 +212,7 @@ ghci> :load src/Main
 ghci> json <- fetchJSON
 ```
 
-* :warning: Allow `Text` to be parsed instead of `[char]`
+* :warning: Allow `Text` to be parsed instead of `[Char]`
 
 
 ```
