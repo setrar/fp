@@ -234,6 +234,10 @@ ghci> :set -XOverloadedStrings
     • Couldn't match expected type ‘Text’ with actual type ‘[Char]’
 ```
 
+```Haskell
+ghci> preview (key "bpi") json
+Just (Object (fromList [("USD",Object (fromList [("rate_float",Number 7197.9167),("symbol",String "&#36;"),("rate",String "7,197.9167"),("code",String "USD"),("description",String "United States Dollar")])),("EUR",Object (fromList [("rate_float",Number 6445.5976),("symbol",String "&euro;"),("rate",String "6,445.5976"),("code",String "EUR"),("description",String "Euro")])),("GBP",Object (fromList [("rate_float",Number 5555.7624),("symbol",String "&pound;"),("rate",String "5,555.7624"),("code",String "GBP"),("description",String "British Pound Sterling")]))]))
+```
 
 
 ## Reference:
