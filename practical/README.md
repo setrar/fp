@@ -211,3 +211,23 @@ ghci> :load src/Main
 ```Haskell
 ghci> json <- fetchJSON
 ```
+
+* :warning: Allow `Text` to be parsed instead of `[char]`
+
+
+```
+<interactive>:5:14: error:
+    • Couldn't match expected type ‘Text’ with actual type ‘[Char]’
+```
+
+* Extend the language
+
+```
+ghci> :set -XOverloadedStrings
+```
+
+
+
+## Reference:
+
+https://stackoverflow.com/questions/37894987/couldnt-match-expected-type-text-with-actual-type-char
