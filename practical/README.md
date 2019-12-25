@@ -65,7 +65,7 @@ fetchJSON = do
   putStrLn "hello world"
 ```
 
-with the below code
+  with the below code
 
 ```Haskell
   json <- fetchJSON
@@ -117,8 +117,6 @@ getRate = preview (key "bpi" . key "USD" . key "rate" . _String)
 ```Haskell
     print (getRate json)
 ```
-
-
 
 :bookmark: Final Result
 
