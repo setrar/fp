@@ -144,3 +144,15 @@ main = do
   json <- fetchJSON
   print (getRate json)
 ```
+
+```Haskell
+import qualified Data.Text.IO                  as TIO
+```
+
+
+```Haskell
+  case getRate json of
+    Nothing   -> TIO.putStrLn "Could not find the Bitcoin rate :("
+    Just rate -> TIO.putStrLn $ "The current Bitcoin rate is " <> rate <> " $"
+```
+
