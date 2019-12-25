@@ -217,7 +217,7 @@ ghci> json <- fetchJSON
 ```
 ghci> json
 ```
-   "{\"time\":{\"updated\":\"Dec 25, 2019 22:32:00 UTC\",\"updatedISO\":\"2019-12-25T22:32:00+00:00\",\"updateduk\":\"Dec 25,    2019 at 22:32 GMT\"},\"disclaimer\":\"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency    data converted using hourly conversion rate from openexchangerates.org\",\"chartName\":\"Bitcoin\",\"bpi\":{\"USD\":         {\"code\":\"USD\",\"symbol\":\"&#36;\",\"rate\":\"7,197.9167\",\"description\":\"United States    Dollar\",\"rate_float\":7197.9167},\"GBP\":   {\"code\":\"GBP\",\"symbol\":\"&pound;\",\"rate\":\"5,555.7624\",\"description\":\"British Pound    Sterling\",\"rate_float\":5555.7624},\"EUR\":   {\"code\":\"EUR\",\"symbol\":\"&euro;\",\"rate\":\"6,445.5976\",\"description\":\"Euro\",\"rate_float\":6445.5976}}}"
+"{\"time\":{\"updated\":\"Dec 25, 2019 22:49:00 UTC\",\"updatedISO\":\"2019-12-25T22:49:00+00:00\",\"updateduk\":\"Dec 25, 2019 at 22:49 GMT\"},\"disclaimer\":\"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org\",\"chartName\":\"Bitcoin\",\"bpi\":{\"USD\":{\"code\":\"USD\",\"symbol\":\"&#36;\",\"rate\":\"7,216.8917\",\"description\":\"United States Dollar\",\"rate_float\":7216.8917},\"GBP\":{\"code\":\"GBP\",\"symbol\":\"&pound;\",\"rate\":\"5,570.4084\",\"description\":\"British Pound Sterling\",\"rate_float\":5570.4084},\"EUR\":{\"code\":\"EUR\",\"symbol\":\"&euro;\",\"rate\":\"6,462.5894\",\"description\":\"Euro\",\"rate_float\":6462.5894}}}"
 
 
 * :warning: Extend the language
