@@ -59,7 +59,13 @@ fetchJSON = do
   return (getResponseBody res)
 ```
 
-* Replace the `putStrLn "hello world"` with the below code
+* In the `main` block replace:
+
+```Haskell
+  putStrLn "hello world"
+```
+
+with the below code
 
 ```Haskell
   json <- fetchJSON
