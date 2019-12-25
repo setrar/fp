@@ -28,3 +28,61 @@ dependencies:
   - text
   - http-conduit
 ```
+
+* Build 
+
+```
+stack build --exec bitcoin --file-watch --fast
+```
+
+* Add an Haskell Language Extension `OverloadedStrings` at the top of `Main.hs` source code 
+
+```Haskell
+{-# LANGUAGE OverloadedStrings #-}
+```
+
+:pushpin: After the `module Main where` declaration
+
+* Import some packages:
+
+```Haskell
+import           Network.HTTP.Simple            ( httpBS, getResponseBody )               
+import qualified Data.ByteString.Char8         as BS
+```
+
+* Add the fetchJSON function declaration to the `Main.hs` source code 
+
+```Haskell
+fetchJSON :: IO BS.ByteString
+fetchJSON = do
+  res <- httpBS "https://api.coindesk.com/v1/bpi/currentprice.json"
+  return (getResponseBody res)
+```
+
+* Replace the `putStrLn "hello world"` with the below code
+
+```Haskell
+  json <- fetchJSON
+  BS.putStrLn json
+```
+
+:bookmark: Final Result
+
+```Haskell
+{-# LANGUAGE OverloadedStrings #-}
+
+module Main where
+
+import           Network.HTTP.Simple            ( httpBS, getResponseBody )
+import qualified Data.ByteString.Char8         as BS
+
+fetchJSON :: IO BS.ByteString
+fetchJSON = do
+  res <- httpBS "https://api.coindesk.com/v1/bpi/currentprice.json"
+  return (getResponseBody res)
+
+main :: IO ()
+main = do
+  json <- fetchJSON
+  BS.putStrLn json
+```
