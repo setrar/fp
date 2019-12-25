@@ -50,7 +50,7 @@ import           Network.HTTP.Simple            ( httpBS, getResponseBody )
 import qualified Data.ByteString.Char8         as BS
 ```
 
-* Add the fetchJSON function declaration to the `Main.hs` source code 
+* Add the `fetchJSON` function declaration to the `Main.hs` source code 
 
 ```Haskell
 fetchJSON :: IO BS.ByteString
@@ -85,4 +85,58 @@ main :: IO ()
 main = do
   json <- fetchJSON
   BS.putStrLn json
+```
+
+### Using `Lenses`
+
+:pushpin: After the `module Main where` declaration
+
+* Import some packages:
+
+```Haskell
+import           Control.Lens                   ( preview )
+import           Data.Aeson.Lens                ( key, _String )
+import           Data.Text                      ( Text )
+```
+
+* Add the `getRate` function declaration to the `Main.hs` source code 
+
+```Haskell
+getRate :: BS.ByteString -> Maybe Text
+getRate = preview (key "bpi" . key "USD" . key "rate" . _String)
+```
+
+* Replace the `BS.putStrLn json` instruction with the below code
+
+```Haskell
+    print (getRate json)
+```
+
+
+
+:bookmark: Final Result
+
+```Haskell
+{-# LANGUAGE OverloadedStrings #-}
+
+module Main where
+
+import           Control.Lens                   ( preview )
+import           Data.Aeson.Lens                ( key, _String )
+import           Data.Text                      ( Text )
+import           Network.HTTP.Simple            ( httpBS, getResponseBody )
+import qualified Data.ByteString.Char8         as BS
+
+fetchJSON :: IO BS.ByteString
+fetchJSON = do
+  res <- httpBS "https://api.coindesk.com/v1/bpi/currentprice.json"
+  return (getResponseBody res)
+
+getRate :: BS.ByteString -> Maybe Text
+getRate = preview (key "bpi" . key "USD" . key "rate" . _String)
+
+main :: IO ()
+main = do
+  json <- fetchJSON
+  print (getRate json)
 ```
