@@ -192,7 +192,22 @@ main = do
     Just rate -> TIO.putStrLn $ "The current Bitcoin rate is " <> rate <> " $"
 ```
 
+# :m: Test
+
+* start with stack to get into REPL
 
 ```
 $ stack exec -- ghci
+```
+
+* Load the Main program and run it
+
+```Haskell
+ghci> :load src/Main
+```
+
+* fill the `json` variable by running `fetchJSON` function 
+
+```Haskell
+ghci> json <- fetchJSON
 ```
