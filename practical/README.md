@@ -248,6 +248,14 @@ ghci> preview (key "bpi" . key "USD" . key "rate" . _String) json
 Just "7,216.8917"
 ```
 
+
+* Extract all the way to the `rate` _String `Just` or `Nothing`
+
+```Haskell
+ghci> preview (key "bpi" . key "MGA" . key "rate" . _String) json
+Nothing
+```
+
 ## Reference:
 
 https://stackoverflow.com/questions/37894987/couldnt-match-expected-type-text-with-actual-type-char
