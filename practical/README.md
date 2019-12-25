@@ -191,3 +191,8 @@ main = do
     Nothing   -> TIO.putStrLn "Could not find the Bitcoin rate :("
     Just rate -> TIO.putStrLn $ "The current Bitcoin rate is " <> rate <> " $"
 ```
+
+
+```
+$ stack exec -- ghci
+```
