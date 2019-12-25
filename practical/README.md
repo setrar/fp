@@ -219,18 +219,19 @@ ghci> json
 ```
    "{\"time\":{\"updated\":\"Dec 25, 2019 22:32:00 UTC\",\"updatedISO\":\"2019-12-25T22:32:00+00:00\",\"updateduk\":\"Dec 25,    2019 at 22:32 GMT\"},\"disclaimer\":\"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency    data converted using hourly conversion rate from openexchangerates.org\",\"chartName\":\"Bitcoin\",\"bpi\":{\"USD\":         {\"code\":\"USD\",\"symbol\":\"&#36;\",\"rate\":\"7,197.9167\",\"description\":\"United States    Dollar\",\"rate_float\":7197.9167},\"GBP\":   {\"code\":\"GBP\",\"symbol\":\"&pound;\",\"rate\":\"5,555.7624\",\"description\":\"British Pound    Sterling\",\"rate_float\":5555.7624},\"EUR\":   {\"code\":\"EUR\",\"symbol\":\"&euro;\",\"rate\":\"6,445.5976\",\"description\":\"Euro\",\"rate_float\":6445.5976}}}"
 
-* :warning: Allow `Text` to be parsed instead of `[Char]`
+
+* :warning: Extend the language
+
+```
+ghci> :set -XOverloadedStrings
+```
+
+* To allow `Text` to be parsed instead of `[Char]`
 
 
 ```
 <interactive>:5:14: error:
     • Couldn't match expected type ‘Text’ with actual type ‘[Char]’
-```
-
-* Extend the language
-
-```
-ghci> :set -XOverloadedStrings
 ```
 
 
