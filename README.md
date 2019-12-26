@@ -15,7 +15,7 @@
 
 |          Dir                     | Title                        | Date |
 |----------------------------------|------------------------------|------|
-| [algorithms](algorithms)         | Algorithms                   | 2006 |
+| [redbook](redbook)               | [Functional Programming in Scala](https://www.manning.com/books/functional-programming-in-scala)                   | 2013 |
 | [fp-for-mortals](fp-for-mortals) | FP for Mortals (with scalaz) | 2019 |
 
 
