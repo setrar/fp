@@ -15,8 +15,8 @@
 
 |          Dir                     | Title                        | Date |
 |----------------------------------|------------------------------|------|
-| [essential](essential)           | [Essential Scala](https://underscore.io/books/essential-scala/)  | 2014 |
 | [redbook](redbook)               | [Functional Programming in Scala](https://www.manning.com/books/functional-programming-in-scala)                   | 2014 |
+| [essential](essential)           | [Essential Scala](https://underscore.io/books/essential-scala/)  | 2017 |
 | [fp-for-mortals](fp-for-mortals) | FP for Mortals (with scalaz) | 2019 |
 
 
