@@ -18,7 +18,8 @@
 | [redbook](redbook)               | [Functional Programming in Scala](https://www.manning.com/books/functional-programming-in-scala)                   | 2014 |
 | [essential](essential)           | [Essential Scala](https://underscore.io/books/essential-scala/)  | 2017 |
 | [fp-for-mortals](fp-for-mortals) | FP for Mortals (with scalaz) | 2019 |
-| [streams](streams)                | Non-Strict (Lazy) List Studies in Scala | 2019 |
+| [streams](streams)               | Non-Strict (Lazy) List Studies in Scala | 2019 |
+| [state](state-ttt)               | State Monad Studies in Scala | 2019 |
 
 
 ### Typescript
