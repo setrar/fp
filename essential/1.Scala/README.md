@@ -34,13 +34,3 @@ $ sbt console
 | Programming Paradigm                           | http://hiperc.buffalostate.edu/courses/ACM612-F15/uploads/ACM612/VanRoy-Programming.pdf                 |                        |
 
 
-## :three: [Glossaire](https://docs.scala-lang.org/glossary/):
-
-| Principles                      | Links                                                                               |
-|---------------------------------|-------------------------------------------------------------------------------------|
-| Lambda Calculus                 | https://en.wikipedia.org/wiki/Lambda_calculus                                       |
-| Higher Order Functions          | https://en.wikipedia.org/wiki/Higher-order_function                                 |
-| Function Composition            | https://en.wikipedia.org/wiki/Function_composition                                  |
-| What is Category Theory?        | https://www.youtube.com/watch?v=jBkO1eerU8A&list=PL4FD0wu2mjWOtmhJsiVrCpzOAk42uhdz8 |
-| Intro to Category Theory (Video)| https://www.youtube.com/watch?v=JH_Ou17_zyU                                         |
-
