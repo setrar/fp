@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mHtmlWriterSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe HTML Writer apply[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should demonstrate the Interfaces using explicit Parameters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe HTML Writer companion object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should demonstrate the Interfaces using implicit Parameters[0m[0m

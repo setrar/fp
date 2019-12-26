@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/valiha/Developer/setrar/Essential/1.Scala/chapter-5/src/test/scala/paragraph74/EqualSpec.scala:19:7: ambiguous implicit values:[0m
+[0m[[0m[31merror[0m] [0m[0m both object NameEqual in object NameEqualImplementation of type paragraph74.NameEqualImplementation.NameEqual.type[0m
+[0m[[0m[31merror[0m] [0m[0m and object NameEmailEqual in class EqualSpec of type EqualSpec.this.NameEmailEqual.type[0m
+[0m[[0m[31merror[0m] [0m[0m match expected type paragraph74.Equal[paragraph74.Person][0m
+[0m[[0m[31merror[0m] [0m[0m    Eq(Person("John","john@example.com"),Person("John","john@doe.com")) shouldBe true[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

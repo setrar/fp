@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(example.HelloSpec, org.scalatest.tools.Framework$$anon$1@4e752f4f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(paragraph47.ExpressionSpec, org.scalatest.tools.Framework$$anon$1@4e752f4f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(paragraph453.FelineSpec, org.scalatest.tools.Framework$$anon$1@4e752f4f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(paragraph546.SumSpec, org.scalatest.tools.Framework$$anon$1@4e752f4f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(paragraph546.MayBeSpec, org.scalatest.tools.Framework$$anon$1@4e752f4f, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 173 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 13[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 13, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	paragraph546.MayBeSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	paragraph47.ExpressionSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example.HelloSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	paragraph453.FelineSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	paragraph546.SumSpec[0m

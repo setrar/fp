@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mExtraStrinMethodsSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe extra method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return the vowels count *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  5 did not equal 4 (ExtraStrinMethodsSpec.scala:8)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe extra more method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the vowels count[0m[0m

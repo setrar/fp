@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/valiha/Developer/setrar/Essential/1.Scala/chapter-4/src/test/scala/paragraph546/MayBeSpec.scala:10:27: missing parameter type for expanded function ((x$2: <error>) => Empty().fold(Empty())(x$2).shouldBe(Empty()))[0m
+[0m[[0m[31merror[0m] [0m[0m    Empty().fold(Empty())(_) shouldBe Empty()[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
