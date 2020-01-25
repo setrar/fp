@@ -1,7 +1,5 @@
 # Set Comprehensions
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
-
 ![equation](http://www.sciweavers.org/tex2img.php?eq=S%20%3D%20%20%5Cbig%5C%7B2%20.%20x%20%5Cmid%20x%20%20%5Cin%20%20N%2C%20x%20%20%20%5Cleq%20%20%2010%20%5Cbig%5C%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 
