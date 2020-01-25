@@ -1,12 +1,12 @@
 # Set Comprehensions
 
 
-| Feature         | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Scala <img src="../images/Scala_logo.png" width=72px height=50px><img> |
-|-----------------|-----------------------------------------|--------------------------------------------------------|
-| Comprehension   |                                         |                                                            |
-|                 | [x * 2 \| x <- [1..10]]                 | for (x <- 1 to 10 to(LazyList)) yield x * 2                |
-|                 | [x * 2 \| x <- [1..10], x * 2 >= 12]    | for (x <- 1 to 10 to(LazyList) if x * 2 >= 12) yield x * 2 |
-|                 | [x\|x<-[50..100],x\`mod\`7==3]          | for (x <- 1 to 10 to(LazyList) if x % 7 == 3) yield x      |
+| Math Feature      | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Scala <img src="../images/Scala_logo.png" width=72px height=50px><img> |
+|-------------------|-----------------------------------------|--------------------------------------------------------|
+| Set Comprehension | List Comprehension                      | For Comprehension                                      |
+|                   | [x * 2 \| x <- [1..10]]                 | for (x <- 1 to 10 to(LazyList)) yield x * 2                |
+|                   | [x * 2 \| x <- [1..10], x * 2 >= 12]    | for (x <- 1 to 10 to(LazyList) if x * 2 >= 12) yield x * 2 |
+|                   | [x\|x<-[50..100],x\`mod\`7==3]          | for (x <- 1 to 10 to(LazyList) if x % 7 == 3) yield x      |
 
 
 References: 
