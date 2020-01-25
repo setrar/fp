@@ -5,9 +5,7 @@
 ![equation](http://www.sciweavers.org/tex2img.php?eq=S%3D%5Cbig%5C%7B2.x%5Cmid%20x%5Cin%20N%2Cx%5Cleq10%5Cbig%5C%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
     The part before the pipe is called the output function, 
-    x is the variable, 
-    N is the input set and 
-    x <= 10 is the predicate. 
+    x is the variable, N is the input set and x <= 10 is the predicate. 
     That means that the set contains the doubles of all natural numbers that satisfy the predicate.
 
 | Math Feature      | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Scala <img src="../images/Scala_logo.png" width=72px height=50px><img> |
