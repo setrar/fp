@@ -22,8 +22,11 @@
     Here's a problem that combines tuples and list comprehensions: 
     which right triangle that has integers for all sides and all sides equal to or smaller than 10 has a perimeter of 24? 
 
-| Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Python <img src="../images/python-logo.jpg" width=72px height=50px><img> |
+|   |  |
 |-----------------------------------------|------------------------------------------------|
-| [ (a,b,c) \| c <- [1..10], b <- [1..10], a <- [1..10] ] | [ (a,b,c) for a in range( 1, 10) for b in range( 1, 10) for c in range( 1, 10)] |
-| [ (a,b,c) \| c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2]| [ (a,b,c) for c in range( 1, 11) for b in range( 1, c) for a in range( 1, b) if a\*\*2 + b\*\*2 == c\*\*2 ]   |
-| [ (a,b,c) \| c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2, a+b+c == 24] | [ (a,b,c) for c in range( 1, 11) for b in range( 1, c) for a in range( 1, b) if a\*\*2 + b\*\*2 == c\*\*2 if a + b + c == 24] |
+| :one: <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | [ (a,b,c) \| c <- [1..10], b <- [1..10], a <- [1..10] ] |
+| :one: <sup><img src="../images/python-logo.jpg" width=72px height=50px><img></sup> | [ (a,b,c) for a in range( 1, 10) for b in range( 1, 10) for c in range( 1, 10)] |
+| :two: <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | [ (a,b,c) \| c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2]|
+| :two: <sup><img src="../images/python-logo.jpg" width=72px height=50px><img></sup> | [ (a,b,c) for c in range( 1, 11) for b in range( 1, c) for a in range( 1, b) if a\*\*2 + b\*\*2 == c\*\*2 ]   |
+| :three: <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | [ (a,b,c) \| c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2, a+b+c == 24] 
+| :three: <sup><img src="../images/python-logo.jpg" width=72px height=50px><img></sup> | [ (a,b,c) for c in range( 1, 11) for b in range( 1, c) for a in range( 1, b) if a\*\*2 + b\*\*2 == c\*\*2 if a + b + c == 24] |
