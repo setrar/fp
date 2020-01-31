@@ -26,4 +26,4 @@
 |-----------------------------------------|------------------------------------------------|
 | [ (a,b,c) \| c <- [1..10], b <- [1..10], a <- [1..10] ] | [ (a,b,c) for a in range( 1, 10) for b in range( 1, 10) for c in range( 1, 10)] |
 | [ (a,b,c) \| c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2]| [ (a,b,c) for c in range( 1, 11) for b in range( 1, c) for a in range( 1, b) if a\*\*2 + b\*\*2 == c\*\*2 ]   |
-| [x\|x<-[50..100],x\`mod\`7==3]          | [x for x in range(50, 100) if x % 7 == 3]      |
+| [ (a,b,c) | c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2, a+b+c == 24] | [ (a,b,c) for c in range( 1, 11) for b in range( 1, c) for a in range( 1, b) if a\*\*2 + b\*\*2 == c\*\*2 if a + b + c == 24] |
