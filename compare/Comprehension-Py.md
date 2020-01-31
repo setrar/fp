@@ -11,7 +11,7 @@
     x is the variable, N is the input set and x <= 10 is the predicate. 
     That means that the set contains the doubles of all natural numbers that satisfy the predicate.
 
-| Math Feature      | Haskell <sup><img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Python <img src="images/python-logo.jpg" width=72px height=50px><img> |
+| Math Feature      | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Python <img src="../images/python-logo.jpg" width=72px height=50px><img> |
 |-------------------|-----------------------------------------|------------------------------------------------|
 | Set Comprehension | List Comprehension                      | List Comprehension                             |
 |                   | [x * 2 \| x <- [1..10]]                 | [x * 2 for x in range( 1, 10)]                 |
