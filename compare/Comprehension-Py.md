@@ -25,5 +25,5 @@
 | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Python <img src="../images/python-logo.jpg" width=72px height=50px><img> |
 |-----------------------------------------|------------------------------------------------|
 | [ (a,b,c) \| c <- [1..10], b <- [1..10], a <- [1..10] ] | [ (a,b,c) for a in range( 1, 10) for b in range( 1, 10) for c in range( 1, 10)] |
-| [ (a,b,c) \| c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2]| [ (a,b,c) for a in range( 1, 10) for b in range( 1, 10) for c in range( 1, 10) if a^2 + b^2 == c^2 ]   |
+| [ (a,b,c) \| c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2]| [ (a,b,c) for c in range( 1, 11) for b in range( 1, c) for a in range( 1, b) if a**2 + b**2 == c**2 ]   |
 | [x\|x<-[50..100],x\`mod\`7==3]          | [x for x in range(50, 100) if x % 7 == 3]      |
