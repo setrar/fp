@@ -17,3 +17,14 @@
 |                   | [x * 2 \| x <- [1..10]]                 | [x * 2 for x in range( 1, 10)]                 |
 |                   | [x * 2 \| x <- [1..10], x * 2 >= 12]    | [x * 2 for x in range( 1, 10) if x * 2 >= 12]  |
 |                   | [x\|x<-[50..100],x\`mod\`7==3]          | [x for x in range(50, 100) if x % 7 == 3]      |
+
+
+    Here's a problem that combines tuples and list comprehensions: 
+    which right triangle that has integers for all sides and all sides equal to or smaller than 10 has a perimeter of 24? 
+
+| Math Feature      | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Python <img src="../images/python-logo.jpg" width=72px height=50px><img> |
+|-------------------|-----------------------------------------|------------------------------------------------|
+| Set Comprehension | List Comprehension                      | List Comprehension                             |
+|                   | [x * 2 \| x <- [1..10]]                 | [x * 2 for x in range( 1, 10)]                 |
+|                   | [x * 2 \| x <- [1..10], x * 2 >= 12]    | [x * 2 for x in range( 1, 10) if x * 2 >= 12]  |
+|                   | [x\|x<-[50..100],x\`mod\`7==3]          | [x for x in range(50, 100) if x % 7 == 3]      |
