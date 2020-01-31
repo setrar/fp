@@ -24,6 +24,6 @@
 
 | Haskell <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> | Python <img src="../images/python-logo.jpg" width=72px height=50px><img> |
 |-----------------------------------------|------------------------------------------------|
-| [ (a,b,c) | c <- [1..10], b <- [1..10], a <- [1..10] ]                 | [x * 2 for x in range( 1, 10)]                 |
+| [ (a,b,c) \| c <- [1..10], b <- [1..10], a <- [1..10] ] | [ (a,b,c) for a in range( 1, 10) for b in range( 1, 10) for c in range( 1, 10)]                 |
 | [x * 2 \| x <- [1..10], x * 2 >= 12]    | [x * 2 for x in range( 1, 10) if x * 2 >= 12]  |
 | [x\|x<-[50..100],x\`mod\`7==3]          | [x for x in range(50, 100) if x % 7 == 3]      |
