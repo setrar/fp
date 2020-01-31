@@ -20,7 +20,8 @@
 
 
     Here's a problem that combines tuples and list comprehensions: 
-    which right triangle that has integers for all sides and all sides equal to or smaller than 10 has a perimeter of 24? 
+    which right triangle that has integers for all sides and 
+    all sides equal to or smaller than 10 has a perimeter of 24? 
 
 |   | |  |
 |---|--------------------------------------|------------------------------------------------|
