@@ -10,6 +10,7 @@
 |----------------------------------|------------------------------|------|
 | [lyah](lyah)                     | Learn You a Haskell          | 2011 |
 | [gpw-haskell](gpw-haskell)       | Get Programming With Haskell | 2018 |
+| [repl.it](https://repl.it/languages/haskell)  | Online REPL                  |      |      
 
 ### Scala <img src="images/Scala_logo.png" width=72px height=50px><img>
 
