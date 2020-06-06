@@ -17,8 +17,6 @@ myAll testFunc = (foldr (&&) True) . (map testFunc)
 myAny :: (a -> Bool) -> [a] -> Bool
 myAny testFunc = (foldr (||) False) . (map testFunc)
 
-
-
 main = do
    print (myLast [1,2,4])
    print (myAny (\a -> a `mod` 2 == 0) [1,5,8,4,10])
