@@ -40,7 +40,6 @@ instance Monoid PTable where
    mempty = PTable [] []
    mappend = (<>)
 
-
 coin :: PTable
 coin = createPTable ["heads","tails"] [0.5,0.5]
 
