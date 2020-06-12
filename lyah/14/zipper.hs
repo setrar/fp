@@ -1,4 +1,4 @@
-data Tree a = Empty | Node a (Tree a) (Tree a) deriving (Show)  
+data Tree a = Empty | Node a (Tree a) (Tree a) deriving (Show)
 
 freeTree :: Tree Char  
 freeTree =   
@@ -23,6 +23,8 @@ freeTree =
                 (Node 'C' Empty Empty)  
             )  
         )
+
+-- ************* Taking a walk ********************
 
 -- Not so good
 
@@ -62,3 +64,22 @@ changeNode [] (Node _ l r) n = Node n l r
 -- ghci> let newTree = changeNode [R,L] freeTree 'Z'
 -- ghci> elemAt [R,L] newTree 
 -- 'Z'
+
+-- ********** A trail of breadcrumbs **************
+
+type Breadcrumbs = [Direction]
+
+goLeft :: (Tree a, Breadcrumbs) -> (Tree a, Breadcrumbs)  
+goLeft (Node _ l _, bs) = (l, L:bs)
+
+goRight :: (Tree a, Breadcrumbs) -> (Tree a, Breadcrumbs)  
+goRight (Node _ _ r, bs) = (r, R:bs)
+
+-- walking along our tree clearer, we can use the -: function
+-- reading from left to right instead of backwards
+
+(-:) :: a -> (a -> b) -> b
+x -: f = f x
+
+-- ghci> (freeTree, []) -: goRight -: goLeft
+-- (Node 'W' (Node 'C' Empty Empty) (Node 'R' Empty Empty),[L,R])  
