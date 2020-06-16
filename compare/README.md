@@ -13,3 +13,8 @@
 | [Range](Range.md) | [Set Builder Notation](https://en.wikipedia.org/wiki/Set-builder_notation) |  Set, For   |
 | [Comprehension](Comprehension.md) | [Set Builder Notation](https://en.wikipedia.org/wiki/Set-builder_notation) |  Set, For         |
 
+### Functional Programming Concepts
+
+| sign  | concept |  Type Definition                        | 
+|-------|---------|-----------------------------------------|
+| `(.)` | Compose | `(.) :: (b -> c) -> (a -> b) -> a -> c` |
