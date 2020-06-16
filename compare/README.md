@@ -15,7 +15,8 @@
 
 ### Functional Programming Concepts <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup>
 
-|  sign   | Type Class  |  Type Definition                                     | method | Laws          |
+|  binary   | Type Class  |  Type Definition                                     | method | Laws          |
+|  operator   | Type Class  |  Type Definition                                     | method | Laws          |
 |:-------:|-------------|------------------------------------------------------|--------|---------------|
 | `.`     | Compose     | `(.) :: (b -> c) -> (a -> b) -> a -> c`              |        |        |
 | `<>`    | Semigroup   | `(<>) :: Semigroup a => a -> a -> a`                 |        |        |
