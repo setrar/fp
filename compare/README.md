@@ -16,6 +16,7 @@
 ### Functional Programming Concepts <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup>
 
 |  sign  | Type Class |  Type Definition                               | method |
-|:------:|---------|------------------------------------------------|-------|
-| `.`    | Compose | `(.) :: (b -> c) -> (a -> b) -> a -> c`        |       |
-| `<$>`  | Functor | `(<$>) :: Functor f => (a -> b) -> f a -> f b` | fmap  |
+|:------:|------------|------------------------------------------------|-------|
+| `.`    | Compose    | `(.) :: (b -> c) -> (a -> b) -> a -> c`        |       |
+| `<>`   | Semigroup  | `(<>) :: Semigroup a => a -> a -> a`           |       |
+| `<$>`  | Functor    | `(<$>) :: Functor f => (a -> b) -> f a -> f b` | fmap  |
