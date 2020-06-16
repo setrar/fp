@@ -13,7 +13,7 @@
 | [Range](Range.md) | [Set Builder Notation](https://en.wikipedia.org/wiki/Set-builder_notation) |  Set, For   |
 | [Comprehension](Comprehension.md) | [Set Builder Notation](https://en.wikipedia.org/wiki/Set-builder_notation) |  Set, For         |
 
-### Functional Programming Concepts <sup><img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup>
+### Functional Programming Concepts <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup>
 
 | sign  | concept |  Type Definition                               | Alias |
 |-------|---------|------------------------------------------------|-------|
