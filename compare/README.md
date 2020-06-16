@@ -13,3 +13,14 @@
 | [Range](Range.md) | [Set Builder Notation](https://en.wikipedia.org/wiki/Set-builder_notation) |  Set, For   |
 | [Comprehension](Comprehension.md) | [Set Builder Notation](https://en.wikipedia.org/wiki/Set-builder_notation) |  Set, For         |
 
+### Functional Programming Concepts <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup>
+
+|  operator   | Type Class  |  Type Definition                                 | function | Laws          |
+|:-------:|-------------|------------------------------------------------------|----------|---------------|
+| `.`     | Compose     | `(.) :: (b -> c) -> (a -> b) -> a -> c`              |          |        |
+| `<>`    | Semigroup   | `(<>) :: Semigroup a => a -> a -> a`                 |          |        |
+| `<$>`   | Functor     | `(<$>) :: Functor f => (a -> b) -> f a -> f b`       | fmap     |        |
+| `<*>`   | Applicative | `(<*>) :: Applicative f => f (a -> b) -> f a -> f b` |          |         |
+| `=<<`   | Monad       | `(=<<) :: Monad m => (a -> m b) -> m a -> m b`       |          | Commutative?        |
+| `>>=`   |             | `(>>=) :: Monad m => m a -> (a -> m b) -> m b`       |          | Commutative?        |
+
