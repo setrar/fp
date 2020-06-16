@@ -15,7 +15,7 @@
 
 ### Functional Programming Concepts <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup>
 
-| sign  | concept |  Type Definition                               | Alias |
-|-------|---------|------------------------------------------------|-------|
-| `.`   | Compose | `(.) :: (b -> c) -> (a -> b) -> a -> c`        |       |
-| `<$>` | Functor | `(<$>) :: Functor f => (a -> b) -> f a -> f b` | fmap  |
+|  sign  | concept |  Type Definition                               | Alias |
+|:------:|---------|------------------------------------------------|-------|
+| `.`    | Compose | `(.) :: (b -> c) -> (a -> b) -> a -> c`        |       |
+| `<$>`  | Functor | `(<$>) :: Functor f => (a -> b) -> f a -> f b` | fmap  |
