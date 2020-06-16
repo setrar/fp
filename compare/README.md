@@ -20,6 +20,6 @@
 | `.`     | Compose     | `(.) :: (b -> c) -> (a -> b) -> a -> c`              |       |
 | `<>`    | Semigroup   | `(<>) :: Semigroup a => a -> a -> a`                 |       |
 | `<$>`   | Functor     | `(<$>) :: Functor f => (a -> b) -> f a -> f b`       | fmap  |
-| `(<*>)` | Applicative | `(<*>) :: Applicative f => f (a -> b) -> f a -> f b` |       | 
-| `(=<<)` | Monad       | `(=<<) :: Monad m => (a -> m b) -> m a -> m b`        |       |
+| `<*>`   | Applicative | `(<*>) :: Applicative f => f (a -> b) -> f a -> f b` |       | 
+| `=<<`   | Monad       | `(=<<) :: Monad m => (a -> m b) -> m a -> m b`        |       |
 
