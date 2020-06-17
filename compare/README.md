@@ -19,7 +19,7 @@
 |:-------:|-------------|------------------------------------------------------|----------|-----------------|
 | `.`     | Compose     | `(.) :: (b -> c) -> (a -> b) -> a -> c`              |          |                 |
 | `<>`    | Semigroup   | `(<>) :: Semigroup a => a -> a -> a`                 |          |                 |
-| `<$>`   | Functor     | `(<$>) :: Functor f => (a -> b) -> f a -> f b`       | fmap     |                 |
+| `<$>`   | [Functor](https://wiki.haskell.org/Typeclassopedia#Functor)     | `(<$>) :: Functor f => (a -> b) -> f a -> f b`       | fmap     |                 |
 | `<*>`   | Applicative | `(<*>) :: Applicative f => f (a -> b) -> f a -> f b` |          | pronounce `app` |
 | `=<<`   | Monad       | `(=<<) :: Monad m => (a -> m b) -> m a -> m b`       |          |         |
 | `>>=`   |             | `(>>=) :: Monad m => m a -> (a -> m b) -> m b`       |          |         |
