@@ -19,7 +19,7 @@
 |:-------:|-------------|------------------------------------------------------|----------|-----------------|
 | `.`     | Compose     | `(.) :: (b -> c) -> (a -> b) -> a -> c`              |          |                 |
 | `<>`    | [Semigroup](https://wiki.haskell.org/Typeclassopedia#Semigroup)    | `(<>) :: Semigroup a => a -> a -> a`                 |          | alias for `mappend` |
-| `mappend`    | [Monoid](https://wiki.haskell.org/Typeclassopedia#Monoid)    | `mappend :: Monoid a => a -> a -> a`                 |          | alias `(Data.Monoid.<>)` |
+| `mappend`    | [Monoid](https://wiki.haskell.org/Typeclassopedia#Monoid)    | `mappend :: Monoid a => a -> a -> a`                 |          | alias `Data.Monoid.<>` |
 | `<$>`   | [Functor](https://wiki.haskell.org/Typeclassopedia#Functor)        | `(<$>) :: Functor f => (a -> b) -> f a -> f b`       | fmap     |                 |
 | `<*>`   | [Applicative](https://wiki.haskell.org/Typeclassopedia#Applicative)| `(<*>)::Applicative f => f (a -> b) -> f a -> f b` |          | pronounce `app` |
 | `=<<`   | [Monad](https://wiki.haskell.org/Typeclassopedia#Monad)            | `(=<<) :: Monad m => (a -> m b) -> m a -> m b`       |          |         |
