@@ -2,7 +2,9 @@
 
 ## Install
 
-:apple: or :penguin: [Install](Install.md)
+:apple: or :penguin: Unix
+
+[Install](Install.md)
 
 # References
 
