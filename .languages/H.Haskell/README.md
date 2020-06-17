@@ -1,6 +1,8 @@
 # Haskell
 
+## Install
 
+:apple: or :penguin: [Install](Install.md)
 
 # References
 
