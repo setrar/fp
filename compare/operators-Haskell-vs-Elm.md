@@ -30,7 +30,7 @@ ghci> :type ($)
 
 ## Examples
 
-- [X] Application Operator
+- [X] Application Operator `$`
 
 Elm <sup><img src="../images/elm-logo.png" width=28px height=28px><img></sup>
 
