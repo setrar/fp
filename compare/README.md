@@ -17,6 +17,7 @@
 
 |  operator   | Type Class  |  Type Definition                                 | function | Comments        |
 |:-------:|-------------|------------------------------------------------------|----------|-----------------|
+| `$`     | Application | `($) :: (a -> b) -> a -> b`                          |          |                 |
 | `.`     | Compose     | `(.) :: (b -> c) -> (a -> b) -> a -> c`              |          |                 |
 | `<>`    | [Semigroup](https://wiki.haskell.org/Typeclassopedia#Semigroup)    | `(<>) :: Semigroup a => a -> a -> a`                 |          | alias for `mappend` |
 | `mappend`    | [Monoid](https://wiki.haskell.org/Typeclassopedia#Monoid)    | `mappend :: Monoid a => a -> a -> a`                 |          | `Data.Monoid.<>` |
