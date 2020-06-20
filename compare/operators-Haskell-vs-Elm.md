@@ -18,12 +18,14 @@
 
 ```
 ghci> :type ($)
+($) :: (a -> b) -> a -> b
 ```
 
 ### Elm <sup><img src="../images/elm-logo.png" width=28px height=28px><img></sup> `elm-repl`
 
 ```
 > (<|)
+<function> : (a -> b) -> a -> b
 ```
 
 ## Examples
