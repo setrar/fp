@@ -37,3 +37,7 @@ ghci> :type ($)
 |             |                                                  | `> [1,2,3,4] \|> List.map (\x -> x+1)`      |
 | `.`         | `ghci> fmap ((\x -> x+1) . (\x -> x+2)) [1,2]`   | `> List.map ((\x->x+1) >> (\y->y+2)) [1,2]` |
 |             |                                                  | `> List.map ((\x->x+1) << (\y->y+2)) [1,2]` |
+
+# References
+
+[<\| is just $](http://faq.elm-community.org/#what-good-is-the--operator-if-it-is-just-function-application)
