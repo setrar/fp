@@ -30,25 +30,8 @@ ghci> :type ($)
 
 ## Examples
 
-- [X] Application Operator `$`
-
-Elm <sup><img src="../images/elm-logo.png" width=28px height=28px><img></sup>
-
-```
-> List.map (\x -> x+1) <| [1,2,3,4]
-```
-
-Haskel <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup> 
-
-```
-ghci> fmap (\x -> x+1) $ [1,2,3,4]
-```
-
-```
-> List.map ((\x -> x+1) >> (\x -> x+2)) [1,2,3,4] 
-[4,5,6,7] : List number
-```
 
 |  operator   |   Haskell Type <sup><img src="../images/602px-Haskell-Logo.svg.png" width=37 height=26><img></sup>   |  Elm Type <sup><img src="../images/elm-logo.png" width=28px height=28px><img></sup> |
-|:-----------:|-------------------------------------------------------|------------|
-| `$`         |  `fmap (\x -> x+1) $ [1,2,3,4]`                          | `> List.map (\x -> x+1) <\| [1,2,3,4]` |
+|:-----------:|-------------------------------------------------------|----------------------------------------|
+| `$`         |  `ghci> fmap (\x -> x+1) $ [1,2,3,4]`                 | `> List.map (\x -> x+1) <\| [1,2,3,4]` |
+| `.`         |  `ghci> fmap (\x -> x+1) $ [1,2,3,4]`                 | `>  List.map ((\x -> x+1) >> (\x -> x+2)) [1,2,3,4]` |
