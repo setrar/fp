@@ -30,4 +30,6 @@ ghci> :type ($)
 
 ## Examples
 
-> [1,2,3,4] |> List.map (\x -> x+1)
+```
+> List.map (\x -> x+1) <| [1,2,3,4]
+```
