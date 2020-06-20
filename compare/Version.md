@@ -13,3 +13,10 @@ The Glorious Glasgow Haskell Compilation System, version 8.6.5
 % scala --version
 Scala code runner version 2.13.1 -- Copyright 2002-2019, LAMP/EPFL and Lightbend, Inc.
 ```
+
+#### Elm <img src="../images/elm_logo.png" width=225px height=224px><img>
+
+```
+% elm  --version
+0.19.1
+```
