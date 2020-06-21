@@ -45,7 +45,7 @@ My first exposure to Type Abstraction was in 1997 when contracting with a client
 |-----------------------------------------|------------------------------|-----------|
 | http://tryhaskell.org/                  | Online REPL                  |  <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>   |
 | https://scastie.scala-lang.org/         | Online REPL                  | <img src="images/Scala_logo.png" width=72px height=50px><img>          |
-| https://ellie-app.com/                  | Online REPL                  |  <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>   |
+| https://ellie-app.com/                  | Online REPL                  |  <sup><img src="../images/elm-logo.png" width=28px height=28px><img></sup>   |
 
 
 |          Website                        | Purpose                      |  Language |
