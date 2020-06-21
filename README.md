@@ -55,4 +55,8 @@ My first exposure to Type Abstraction was in 1997 when contracting with a client
 | What is Category Theory?        | https://www.youtube.com/watch?v=jBkO1eerU8A |
 | Intro to Category Theory (Video)| https://www.youtube.com/watch?v=JH_Ou17_zyU                                         |
 
+# References
+
+https://www.thedifferenceengine.tech/blog/2019/01/why-the-buzz-about-functional-programming
+
 
