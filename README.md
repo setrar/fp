@@ -39,11 +39,19 @@ My first exposure to Type Abstraction was in 1997 when contracting with a client
 
 ## :two: References
 
+
+
 |          Website                        | Purpose                      |  Language |
 |-----------------------------------------|------------------------------|-----------|
 | http://tryhaskell.org/                  | Online REPL                  |  <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>   |
+| https://scastie.scala-lang.org/         | Online REPL                  | <img src="images/Scala_logo.png" width=72px height=50px><img>          |
+| https://ellie-app.com/                  | Online REPL                  |  <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>   |
+
+
+|          Website                        | Purpose                      |  Language |
+|-----------------------------------------|------------------------------|-----------|
 | http://book.realworldhaskell.org/read/  | Doc                          | %         |
-| https://scastie.scala-lang.org/         | Online REPL                  | <img src="images/Scala_logo.png" width=72px height=50px><img>     |     
+
 
 ## :three: [Glossary](https://docs.scala-lang.org/glossary/):
 
