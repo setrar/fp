@@ -1,5 +1,7 @@
 # Functional Programming Studies 
 
+-- WIP
+
 This repository is a self-thaught attempt to learn Functional Programming (FP) Languages through reading materials like books, online MOOCs or practical examples provided by diverse blogs in the Internet.
 
 At the moment, the repository is disorganized. Materials are accumulated based on discovery. Haskell being a pure FP language, trying to study other languages around Haskell foundation seems to be a good idea. Therefore, all languages close to Haskell will be studied and materials will be collected based on studied languages.
