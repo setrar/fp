@@ -32,7 +32,7 @@ My first exposure to Type Abstraction was in 1997 when contracting with a client
 
 |          Dir                     | Title                        | Date |  Language |
 |----------------------------------|------------------------------|------|-----------|
-| https://github.com/funfix/funfix | 2019                         |      |           |
+| https://github.com/funfix/funfix |                              | 2019 |           |
 
 
 
