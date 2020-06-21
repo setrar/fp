@@ -4,7 +4,7 @@ This repository is a self-thaught attempt to learn Functional Programming (FP) L
 
 At the moment, the repository is disorganized. Materials are accumulated based on discovery. Haskell being a pure FP language, trying to study other languages around Haskell foundation seems to be a good idea. Therefore, all languages close to Haskell will be studied and materials will be collected based on studied languages.
 
-My first exposure to Type Abstraction was in 1997 when contracting through a client using [C++](https://en.wikipedia.org/wiki/C++) for its Accounting Software. learning about [Generic Programming](https://en.wikipedia.org/wiki/Concept_(generic_programming)) along with [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) on a contract.  
+My first exposure to Type Abstraction was in 1997 when contracting with a client that was using [C++](https://en.wikipedia.org/wiki/C++) for its Accounting Software. Coming from an [Imperative Programming](https://en.wikipedia.org/wiki/Imperative_programming) background and [4th generation programming](https://en.wikipedia.org/wiki/Fourth-generation_programming_language) learning about [Generic Programming](https://en.wikipedia.org/wiki/Concept_(generic_programming)) along with [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) on a contract.  
 
 
 ### [Haskell <img src="images/602px-Haskell-Logo.svg.png" width=37 height=26><img>](.languages/H.Haskell)
