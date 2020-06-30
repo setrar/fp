@@ -23,3 +23,5 @@ cabal.project.local~
 .idea
 
 dist-newstyle
+
+.DS_Store
