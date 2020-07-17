@@ -30,12 +30,13 @@ $ cabal configure
 $ cabal build
 ```
 
+- [x] Run
 
 ```
 $ cabal run noughts User Random
 ```
 
-## Running
+## Playing
 
 ```
 Pick from 1 to 9 (left to right, top to bottom)
