@@ -1,5 +1,6 @@
-
 ## Without using `cabal`
+
+https://gist.github.com/adwhit/db18f3fbfdb61bc56357bce25aa2d19d
 
 ```
 $ cabal install optparse-applicative --lib
