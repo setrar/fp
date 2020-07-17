@@ -1,4 +1,6 @@
 
+## Without using `cabal`
+
 ```
 $ cabal install optparse-applicative --lib
 ```
@@ -15,6 +17,12 @@ $ ghc Main.hs -package random
 
 ```
 $ ./Main User Minimax
+```
+
+or  using `cabal`
+
+```
+$ cabal run noughts User Random
 ```
 
 

@@ -25,3 +25,5 @@ cabal.project.local~
 dist-newstyle
 
 .DS_Store
+
+Main
