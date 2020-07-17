@@ -4,10 +4,13 @@ import Html exposing (div, h1, img, text, hr)
 import Html.Attributes exposing (..)
 
 initialModel =
-    [ { url = "1.jpeg" }
-    , { url = "2.jpeg" }
-    , { url = "3.jpeg" }
-    ]
+    { photos =
+        [ { url = "1.jpeg" }
+        , { url = "2.jpeg" }
+        , { url = "3.jpeg" }
+        ]
+    , selectedUrl = "1.jpeg"
+    }
 
 urlPrefix =
     "http://elm-in-action.com/"
