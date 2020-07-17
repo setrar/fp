@@ -14,18 +14,28 @@ $ cabal v1-install random
 $ ghc Main.hs -package random
 ```
 
-## Play 
+- [x] Run
 
 ```
 $ ./Main User Minimax
 ```
 
-or  using `cabal`
+## Using `cabal`
+
+```
+$ cabal configure
+```
+
+```
+$ cabal build
+```
+
 
 ```
 $ cabal run noughts User Random
 ```
 
+## Running
 
 ```
 Pick from 1 to 9 (left to right, top to bottom)
