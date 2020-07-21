@@ -1,7 +1,0 @@
-.stack-work/
-streams.cabal
-*~
-
-*.iml
-cabal.config
-out

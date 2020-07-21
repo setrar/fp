@@ -1,1 +1,0 @@
-# Practical examples in Haskell
