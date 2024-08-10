@@ -32,5 +32,4 @@ sbt console
 | Coursera ProgFun                               | [ProgFun1](https://www.coursera.org/learn/progfun1)                                                     |                        |
 | Interview Questions .                          | https://github.com/Jarlakxen/Scala-Interview-Questions                                                  |                        |
 | Programming Paradigm                           | http://hiperc.buffalostate.edu/courses/ACM612-F15/uploads/ACM612/VanRoy-Programming.pdf                 |                        |
-
-
+- [ ] [Installing sbt on macOS](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Mac.html)
