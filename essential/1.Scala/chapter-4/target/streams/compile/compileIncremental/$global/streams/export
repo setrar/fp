@@ -1,1 +1,0 @@
-scalac -bootclasspath /Users/valiha/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar -classpath /Users/valiha/Developer/setrar/Essential/1.Scala/chapter-4/target/scala-2.12/classes /Users/valiha/Developer/setrar/Essential/1.Scala/chapter-4/src/main/scala/paragraph546/Sum.scala

@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/valiha/Developer/setrar/Essential/1.Scala/chapter-5/src/main/scala/paragraph74/Equal.scala:8:77: paragraph74.Equal[A] does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m  def apply[A](left: A, right: A)(implicit equal: Equal[A]): Boolean = equal(left,right)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

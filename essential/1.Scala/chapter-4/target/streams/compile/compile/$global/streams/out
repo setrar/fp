@@ -1,5 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/valiha/Developer/setrar/Essential/1.Scala/chapter-4/src/main/scala/paragraph47/Expression.scala:4:27: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Fail(_)[0m
-[0m[[0m[33mwarn[0m] [0m[0m  def eval: Calculation = this match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
