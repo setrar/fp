@@ -3,13 +3,13 @@
 ## :zero: Project
 
 ```
-$ sbt new scala/scala-seed.g8 
+sbt new scala/scala-seed.g8 
 ```
 
 * Open the scala console (REPL)
 
 ```
-$ sbt console
+sbt console
 ```
 
 ## :one: IDE:
